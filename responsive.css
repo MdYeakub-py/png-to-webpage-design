@@ -1,0 +1,121 @@
+/* this style for desktop view */
+ @media(max-width:1200){
+h1{
+    font-size: 50px;
+}
+ }
+
+/*this style for Laptop view  */
+@media(max-width: 992x){
+h1{
+    font-size: 40px;
+}
+
+}
+/* this style for Tablet view */
+@media(max-width: 768px){
+    h1{
+        font-size: 30px;
+    }
+    h2{
+        font-size: 25px;
+    }
+    p{
+        text-decoration: none;
+        text-align: justify;
+    }
+    .Sec1Left h1{
+        text-align: justify;
+        
+    }
+    .Sec1Left,.Sec1Right {
+        flex-basis: 100%;
+        text-align: center;
+    }
+    .Sec2Col1,.Sec2Col2,.Sec2Col3 {
+        text-align: center;
+        padding: 25px;
+    }
+    .Sec3Left,.Sec3Right {
+        text-align: center;
+        flex-basis: 100%;
+    }
+    .Sec4Left,.Sec4Right {
+        text-align: center;
+        flex-basis: 100%;
+    }
+    .Sec5Col1,.Sec5Col2 {
+        text-align: center;
+        flex-basis: 100%;
+    }
+    /* set position */
+    .Sec1Left{
+        order: 4;
+    }
+    .Sec1Right{
+        order: 3;
+    }
+    .Sec4Left{
+        order: 6;
+    }
+    .Sec4Right{
+        order: 5;
+    }
+}
+/* this style for mobile view  */
+@media(max-width: 576px){
+    h1{
+        font-size: 20px;
+    }
+    h2{
+        font-size: 16px;
+    }
+    p{
+        text-decoration: none;
+        text-align: justify;
+    }
+    .Sec1Left h1{
+        text-align: justify;
+        
+    }
+    .Sec1Left,.Sec1Right {
+        flex-basis: 100%;
+        text-align: center;
+    }
+    .Sec2Col1,.Sec2Col2,.Sec2Col3 {
+        flex-basis: 100%;
+        text-align: center;
+        margin-top: 30px;
+        padding: 20px;
+    }
+    .Sec3Left,.Sec3Right {
+        text-align: center;
+        flex-basis: 100%;
+    }
+    .Sec4Left,.Sec4Right {
+        text-align: center;
+        flex-basis: 100%;
+    }
+    .Sec5Col1,.Sec5Col2 {
+        text-align: center;
+        flex-basis: 100%;
+    }
+    .Sec5Col2 h2 {
+        text-align: center;
+    }
+
+    /* set position */
+    .Sec1Left{
+        order: 4;
+    }
+    .Sec1Right{
+        order: 3;
+    }
+    .Sec4Left{
+        order: 6;
+    }
+    .Sec4Right{
+        order: 5;
+    }
+    
+}

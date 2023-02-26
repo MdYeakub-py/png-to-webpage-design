@@ -1,0 +1,377 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+li,
+form {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: 900;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 500;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+p {
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.spacing {
+    padding: 4% 8% 0px;
+}
+
+/* global style end */
+
+/* Section 1 style start here */
+.Sec1 {
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+.Sec1Left {
+    width: 50%;
+    padding-top: 35px;
+}
+
+.Sec1Left h1 {
+
+
+    text-transform: uppercase;
+    border-left: 4px solid red;
+    padding-left: 10px;
+    color: black;
+}
+
+.Sec1Left span {
+    color: red;
+}
+
+.Sec1Left p {
+    padding-top: 15px;
+    line-height: 25px;
+}
+
+.Sec1Left a {
+    background-color: red;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    padding: 10px 25px;
+    margin-top: 25px;
+    display: inline-block;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, red, rgba(255, 255, 0, 0.721));
+
+}
+
+.Sec1Left a:hover {
+    color: blue;
+    background-image: linear-gradient(to left, red, rgba(255, 255, 0, 0.721));
+}
+
+.Sec1Right {
+    width: 50%;
+    text-align: center;
+}
+
+.Sec1Right img {
+    width: 80%;
+
+}
+
+/* End Section 1 style */
+
+/* Start Section 2 style */
+
+
+
+.Sec2 h2 {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.Sec2 span {
+    color: red;
+}
+
+.Sec2row2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* start section col1 */
+.Sec2Col1 {
+    background-color: rgba(0, 255, 255, 0.252);
+    padding: 30px;
+    flex-basis: 31.3%;
+    box-sizing: border-box;
+}
+
+.Sec2Col1 i {
+    color: white;
+    font-size: 60px;
+}
+
+.Sec2Col1 h5 {
+    color: rgba(255, 0, 0, 0.779);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* end section2 col1 */
+/* start section2 col2 */
+
+.Sec2Col2 {
+    background-color: rgba(166, 0, 255, 0.278);
+    padding: 30px;
+    flex-basis: 31.3%;
+    box-sizing: border-box;
+}
+
+
+.Sec2Col2 i {
+    color: white;
+    font-size: 60px;
+}
+
+.Sec2Col2 h5 {
+    color: rgba(255, 0, 0, 0.779);
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+/* end section2 col2 */
+/* start section2  col3 */
+.Sec2Col3 {
+    background-color: rgba(255, 0, 174, 0.234);
+    padding: 30px;
+    flex-basis: 31.3%;
+    box-sizing: border-box;
+
+}
+
+.Sec2Col3 i {
+    color: white;
+    font-size: 60px;
+}
+
+.Sec2Col3 h5 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgba(255, 0, 0, 0.779);
+}
+
+/* end section 2 col3 */
+/* Section 3 start here */
+
+
+.Sec3 {
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Sec3Left {
+    width: 50%;
+}
+
+.Sec3Left img {
+    width: 80%;
+}
+
+.Sec3Right {
+    width: 50%;
+    text-align: left;
+    padding-top: 8%;
+}
+
+.Sec3Right p {
+    padding-top: 15px;
+    line-height: 25px;
+}
+
+.Sec3Right a {
+    background-color: red;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    padding: 10px 25px;
+    margin-top: 25px;
+    display: inline-block;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, red, rgba(255, 255, 0, 0.721));
+
+}
+
+.Sec3Right a:hover {
+    color: blue;
+    background-image: linear-gradient(to left, red, rgba(255, 255, 0, 0.721));
+}
+
+/* Section 3 style end here  */
+
+/* Section 4start here */
+
+
+.Sec4 {
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Sec4Left {
+    width: 50%;
+}
+
+.Sec4Left {
+    width: 50%;
+    text-align: left;
+    padding-top: 8%;
+}
+
+.Sec4Left p {
+    padding-top: 15px;
+    line-height: 25px;
+}
+
+.Sec4Left a {
+    background-color: red;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    padding: 10px 25px;
+    margin-top: 25px;
+    display: inline-block;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, red, rgba(255, 255, 0, 0.721));
+
+}
+
+.Sec4Left a:hover {
+    color: blue;
+    background-image: linear-gradient(to left, red, rgba(255, 255, 0, 0.721));
+}
+
+.Sec4Right {
+    width: 50%;
+}
+
+.Sec4Right img {
+    width: 80%;
+}
+
+/* Section 4 End */
+
+/* here starting Section 5 style  */
+.Sec5 h2 {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.Sec5 h2 span {
+    color: red;
+    text-transform: uppercase;
+}
+
+.Sec5row2 {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.Sec5Col1 {
+    width: 50%;
+}
+
+.Sec5Col1 img {
+
+    width: 90%;
+
+}
+
+.Sec5Col2 {
+    width: 50%;
+}
+
+.Sec5Col2 {
+    width: 50%;
+    padding-top: 8%;
+}
+
+.Sec5Col2 h2 {
+    text-align: left;
+}
+
+.Sec5Col2 span {
+    color: red;
+    text-transform: uppercase;
+}
+
+.Sec5Col2 p {
+    padding-top: 15px;
+    line-height: 25px;
+}
+
+.Sec5Col2 p span {
+    text-transform: uppercase;
+    color: red;
+    font-style: bold;
+}
+
+.Sec5Col2 a {
+    background-color: red;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    padding: 10px 25px;
+    margin-top: 25px;
+    display: inline-block;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, red, rgba(255, 255, 0, 0.721));
+
+}
+
+.Sec5Col2 a:hover {
+    color: blue;
+    background-image: linear-gradient(to left, red, rgba(255, 255, 0, 0.721));
+}
+
+/* footer style start here  */
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 30px 90px;
+    margin-top: 90px;
+}
+
+footer span {
+    color: red;
+    text-transform: uppercase;
+}
